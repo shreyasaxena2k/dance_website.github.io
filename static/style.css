@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#navbar{
+    background-color:(rgb(240, 240, 227));
+    padding: 6px 0px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    margin: 0px 33px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 11px;
+    font-style: italic;
+}
+#navbar li a:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px 11px;
+    font-style: italic;
+}
+
+#introsec{
+    color:whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: center / cover no-repeat url("/static/pic6.jpg");
+}
+#introsec div.head{
+    margin-top: 26px;
+    padding-top: 105px;
+}
+#introsec div.small{
+    
+    font-size: 30px;
+}
+
+#sponsersec {
+    background-color:beige;
+    height: 300px;
+}
+#sponsersec h2{
+    padding-top: 12px;
+    text-align: center;
+    font-size: large;
+ } 
+ #missionsec {
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(245, 197, 180);
+    height: 300px;
+ }
+#missionsec h2{
+    padding-top: 12px;
+    text-align: center;
+    font-size: larger;
+    margin-left: 20px;
+}
+.card{
+    display: inline-grid;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 380px;
+    height: 200px;
+    margin: 25px 49px;
+}
+.card h3{
+    text-align: center;
+    margin-top: 12px;
+}
+#footer{
+    height: 50px;
+    background-color:rgb(7, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    opacity: 4.6;
+}
+#logo img{
+    
+    width: 18%;
+    margin: -7px 3px;
+    
+}
+.card-box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card-img{
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    width: 75%;
+    height: inherit;
+
+}

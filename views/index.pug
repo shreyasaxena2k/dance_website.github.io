@@ -1,0 +1,56 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/pic8.png")
+                | SDA
+            li #[a(href="/") HOME]
+            li #[a(href="/") ABOUT]
+            li #[a(href="/") SERVICES]
+            li #[a(href="/") CLASS INFO]
+            li #[a(href="/") CONTACT US]
+
+    section#introsec
+       div.head WELCOME TO SHREYA'S DANCE ACADEMY
+       div.small EAT SLEEP DANCE REPEAT
+
+    section#missionsec
+       h2 OUR MISSION
+       div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+       div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+
+       div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+
+    section#sponsersec
+       h2 OUR SPONSERS
+       div.card-box
+                div.card-img
+                    img(src="/static/pic5.webp")
+    footer#footer
+       | Copyright 2020 ShreyaDanceAcacdemy.com
+    script
+      include ../static/index.js

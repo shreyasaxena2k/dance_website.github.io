@@ -1,0 +1,43 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content                      
+    section#introsec
+       div.head WELCOME TO SHREYA'S DANCE ACADEMY
+       div.small EAT SLEEP DANCE REPEAT
+
+    section#missionsec
+       h2 OUR MISSION
+       div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+       div.card
+            h3 Dance The Way You Like
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+
+       div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/pic7.jpg")
+                div.card-content
+                    p This is the best dance academy..
+
+    section#sponsersec
+       h2 OUR SPONSERS
+       div.card-box
+                div.card-img
+                    img(src="/static/pic5.webp")
